@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo"> <!-- Você pode adicionar um logotipo aqui --> </div>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">Pesquisar</a>
+            <a href="#">Notificações</a>
+            <a href="#">Meus Livros</a>
+            <a href="#">Perfil</a>
+            <a href="#">Configurações</a>
+        </nav>
+    </div>
+
+    <div class="main-content">
+        <div class="filter-buttons">
+            <button data-filter="all" class="active">Todos</button>
+            <button data-filter="read">Lidos</button>
+            <button data-filter="reading">Lendo</button>
+            <button data-filter="unread">Não Lidos</button>
+        </div>
+
+        <div class="books-grid">
+            <div class="book-card reading">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUeIB1ZMGEnBiSG6EDf6NCmf4ZWhK0jbmarg&s" alt="Os Pilares da Terra">
+                <p>Os Pilares da Terra</p>
+            </div>
+            <div class="book-card unread">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSxk8zdhfxZGDzpK634WPKKaz_7VveKPpwjQ&s" alt="O Código Da Vinci">
+                <p>O Código Da Vinci</p>
+            </div>
+            <div class="book-card unread">
+                <img src="https://m.media-amazon.com/images/I/91gl1Ab8wCL._AC_UF1000,1000_QL80_.jpg" alt="Carrie">
+                <p>Carrie</p>
+            </div>
+        <div class="books-grid">
+            <div class="book-card read">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzhE_Kz3Uv3kgyoIZPP7iPiUxuPpUQkKR4TA&s" alt="O alienista">
+                <p>O alienista</p>
+            </div>
+            <div class="book-card reading">
+                <img src="https://m.media-amazon.com/images/I/81vizFt8swL._AC_UF1000,1000_QL80_.jpg" alt="The dirt as confissões da banda mais infame do rock'n roll">
+                <p>The dirt as confissões da banda mais infame do rock'n roll</p>
+            </div>
+            <div class="book-card read">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCzMMJ-ywGNSgMydSw8nWlAKxuzM3eDUSKbQ&s" alt="Yu Yu Hakusho vol.1">
+                <p>Yu Yu Hakusho vol.1</p>
+            </div>
+            <!-- Continue com as outras imagens e categorias -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
